@@ -27,7 +27,7 @@ def build_and_train_model(x_train, y_train):
     model.compile(optimizer='adam',
                   loss='sparse_categorical_crossentropy',
                   metrics=['accuracy'])
-    model.fit(x_train, y_train, epochs=15, verbose=0)
+    model.fit(x_train, y_train, epochs=25, verbose=0)
     return model
 
 # ฟังก์ชันทำนายผล
